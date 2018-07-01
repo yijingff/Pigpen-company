@@ -1,0 +1,263 @@
+/*2018/05/07.  Shenghong Yan*/
+
+/*global*/
+body{
+	overflow-x: hidden;
+}
+
+header .container-fluid{
+	background-color: #fff;
+}
+.navbar-pigpen{
+	background-color: #fff;
+	min-width: 100%;
+	margin-bottom: 0;
+	border: none;
+	box-shadow: 3px 3px 5px grey;
+	height: 85px;
+}
+
+
+.navbar-brand{
+	margin-top: 0.5px;
+}
+
+.navbar-pigpen .navbar-nav > li > a{
+	line-height: 85px;
+}
+
+.nav > li > a{
+	padding: 0px 15px;
+}
+
+
+.navbar-pigpen .navbar-nav > li > a {
+	position: relative;
+    line-height: 85px;
+	color: black;
+    font-weight: bold;
+}
+
+.navbar-pigpen .navbar-right li a:hover{
+	color:black;
+	background-color: white;
+}
+
+
+
+
+#main_ad{
+	margin-top: 82px;
+}
+
+.carousel-control{
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+    #main_ad .carousel-inner .item {
+        height: 620px;
+    }
+}
+
+
+
+#main_ad>.carousel-inner>.item>img {
+    /*width: 100%;*/
+}
+
+.navbar-pigpen .navbar-toggle {
+	margin-top: 27px;
+	left: -50px;
+}
+
+/*business*/
+#business{
+	background: #f0f0f0;
+	padding: 8rem;
+}
+
+#business h3{
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	color: #000;
+	border-radius: 3rem;
+}
+
+#business .detail{
+	padding-top: 40px;
+}
+
+#business .detail ul li{
+	padding: 5px 0;
+}
+#business .detail p{
+	line-height: 20px;
+}
+
+#business .detail p span{
+	line-height: 20px;
+	padding-right: 10px;
+	color: rgb(229, 115, 115);
+}
+
+#business .consulting{
+	padding: 1rem 1rem;
+}
+
+#business .chooseUs{
+	line-height: 1.9rem;
+	padding: 1rem 1rem;
+}
+
+
+#business .detail .panel-group{
+	padding-top: 42px;
+}
+
+
+
+
+#business h2,#products h2{
+	font-size: 2rem;
+	line-height: 2rem;
+	padding: 2rem 0;
+}
+
+#business #accordion .panel-default{
+	margin-bottom: 40px;
+}
+
+#chooseus{
+	background-color: black;
+	padding: 4rem 0;
+	border-bottom:1px solid #DDDDDD;
+	color: white;
+}
+
+#chooseus h1{
+	padding-bottom: 20px;
+	font-size: 2rem;
+}
+
+
+#chooseus .detail span{
+	padding-right: 15px;
+	color: rgb(229, 115, 115);
+	line-height: 25px;
+	height: 25px;
+}
+
+#chooseus .detail ul li{
+	line-height: 25px;
+}
+
+
+
+
+
+#threeinone{
+	border-bottom: 1px solid #f1f1f1;
+	padding:4rem 0;
+}
+
+#threeinone #portfolio a{
+	color: black;
+	text-decoration: none;
+}
+
+#threeinone #portfolio a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.folio-box{
+	overflow: hidden;
+	border: 2px solid #DDDDDD;
+}
+
+.folio-box a{
+	position: relative;
+}
+
+.folio-box img{
+	width: 266px;
+	height: 230px;
+}
+
+.folio-box a .words{
+	color: #FFFFFF;
+	position: absolute;
+	left: 0%;
+	top:270px;
+	height: 230px;
+	padding: 2rem 2rem;
+	background: rgba(0, 172, 193,0.9);
+	opacity: 0;
+}
+
+@media (max-width: 992px) {
+    .folio-box a .words{
+        padding: 0;
+    }
+}
+
+.folio-box a:hover .words{
+	
+	transform: translateY(-270px);
+	-webkit-transform:translateY(-270px);
+	-webkit-transition: transform 0.5s;
+	opacity: 1;
+}
+
+.folio-detail{
+	margin-top: 20px;
+}
+
+/*stylesheets for modal*/
+.modal{
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+/*contact*/
+#contact{
+	padding: 5rem 0;
+	/*background: rgba(0,0,0,0.5);*/
+	color: black;
+}
+
+#contact h2{
+	font-size: 3rem;
+	padding-bottom: 3rem;
+}
+
+#contact .form-control{
+	height: 50px;
+}
+
+#contact input[type='submit']{
+	background: #3e3a3a;
+	font-weight: bold;
+	transition: all 0.3s;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+}
+
+#contact input[type='submit']:hover{
+	background: black;
+}
+
+
+
+/*footer*/
+footer{
+	background-color: black;
+	color: white;
+	padding: 4rem 0;
+}
+
+
